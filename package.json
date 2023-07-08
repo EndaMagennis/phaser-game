@@ -1,0 +1,24 @@
+{
+  "name": "phaser-game",
+  "version": "1.0.0",
+  "description": "![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndaMagennis/phaser-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndaMagennis/phaser-game/issues"
+  },
+  "homepage": "https://github.com/EndaMagennis/phaser-game#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.60.0"
+  }
+}
