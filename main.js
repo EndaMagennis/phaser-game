@@ -1,7 +1,5 @@
 import Phaser from "phaser";
-import TitleScreen from "./scripts/titleScreen";
-import Game from "src/scripts/game.js";
-
+import Game from "./src/scripts/game";
 const config = {
     width: 600,
     height: 500,
