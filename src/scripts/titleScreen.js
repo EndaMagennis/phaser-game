@@ -1,7 +1,7 @@
 import Phaser from "phaser";
 
 //creating a Titlescreen scene to call from main.js
-export default class TitleScreen extends Phaser.Scene{
+class TitleScreen extends Phaser.Scene{
      
     preload(){
 
@@ -9,7 +9,7 @@ export default class TitleScreen extends Phaser.Scene{
 
     create() {
         
-        const title = this.add.text(300, 250, 'Hello, World!');
-        title.setOrigin(0.5, 0.5);
     }
 }
+
+export default TitleScreen
